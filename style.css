@@ -1,0 +1,30 @@
+*,::before,::after{
+	box-sizing: border-box;
+}
+
+
+body{
+    background: #eeedec;
+    font-size: .9rem;
+		letter-spacing: .1rem;
+		margin: 0;
+}
+
+.container{
+		max-width: 400px;
+}
+
+.card{
+    position: relative;
+}
+
+body > div > div > div.icon.bg-light.mx-auto.text-center{
+    position: relative;
+    border-radius: 50%;
+    bottom: 50px;
+    margin-bottom: -50px;
+}
+
+.large-font{
+	font-size: 3rem;
+}
